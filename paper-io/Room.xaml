@@ -11,6 +11,7 @@
             <Canvas x:Name="Canvas"  IsHitTestVisible="False" Height="225" Width="231" Background="#FFFDEBEB">
                 <Rectangle x:Name="Player" Fill="Black" Canvas.Left="100" Canvas.Top="86" Height="40" Width="36" />
             </Canvas>
+
         </ScrollViewer>
         <!--<ScrollViewer x:Name="CanvasViewer" HorizontalScrollBarVisibility="Hidden"  VerticalScrollBarVisibility="Hidden" Margin="290,146,296,145" Background="#FFF5DADA">
             <Canvas x:Name="Player" IsHitTestVisible="False" Background="Black" Height="39" Width="36"/>
