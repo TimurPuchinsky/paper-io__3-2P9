@@ -11,5 +11,6 @@ namespace paper_io
     /// </summary>
     public class Player
     {
+
     }
 }

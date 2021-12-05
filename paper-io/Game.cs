@@ -28,5 +28,20 @@ namespace paper_io
             Players = new Player[n];
             Room = new Player[n * 10, n * 10];
         }
+        /// <summary>
+        /// Метод получающий область по указанным координатам
+        /// </summary>
+        public void OblastKoordinat()
+        {
+            
+        }
+        /// <summary>
+        /// Метод получающий область по указанным координатам
+        /// </summary>
+        public struct Player
+        {
+
+        }
+        Player[,] array = new Player[31, 17];
     }
 }
