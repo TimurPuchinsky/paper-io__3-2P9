@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Shapes;
 
 namespace paper_io
 {
@@ -33,15 +35,22 @@ namespace paper_io
         /// </summary>
         public void OblastKoordinat()
         {
-            
+            Player[,] array = new Player[31, 17];
         }
         /// <summary>
-        /// Метод получающий область по указанным координатам
+        /// Конструктор для вычисления координат верхнего левого угла прямоугольника
+        /// </summary>
+        public Rectangle(Point location)
+        {
+            Point point = new Point();
+            point = location;
+        }
+        /// <summary>
+        /// Тип Player
         /// </summary>
         public struct Player
         {
 
         }
-        Player[,] array = new Player[31, 17];
     }
 }
