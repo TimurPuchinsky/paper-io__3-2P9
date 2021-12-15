@@ -128,12 +128,15 @@ namespace paper_io
                     0, 0));
             GeometryDrawing gd = new GeometryDrawing();
             gd.Geometry = gg;
-            //gd.Brush = new SolidColorBrush(Color.FromRgb(255, 0, 0));
             gd.Pen = new Pen(Brushes.Black, 0.05);
             DrawingImage gi = new DrawingImage(gd);
-            gi.Freeze();
 
             canvas.Source = gi;
+
+            //foreach(Player in canvas)
+            //{
+
+            //}
         }
     }
 }
