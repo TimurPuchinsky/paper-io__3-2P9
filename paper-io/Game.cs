@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace paper_io
@@ -33,24 +35,23 @@ namespace paper_io
         /// <summary>
         /// Метод получающий область по указанным координатам
         /// </summary>
-        public void OblastKoordinat()
+        public Player[,] OblastKoordinat(Point point)
         {
+            Rectangle koordinat = new Rectangle();
             Player[,] array = new Player[31, 17];
-        }
-        /// <summary>
-        /// Конструктор для вычисления координат верхнего левого угла прямоугольника
-        /// </summary>
-        public Rectangle(Point location)
-        {
-            Point point = new Point();
-            point = location;
-        }
-        /// <summary>
-        /// Тип Player
-        /// </summary>
-        public struct Player
-        {
-
+            Point TopLeft = new Point(point.X - 8, point.Y - 15);
+            int x = 0;
+            int y = 0;
+            for (int i = (int)TopLeft.X; i < (int)TopLeft.X + 31; i++)
+            {
+                for (int j = (int)TopLeft.Y; i < (int)TopLeft.Y + 17; i++)
+                {
+                    array[x, y] = Room[i, j];
+                    y++;
+                }
+                x++;
+            }
+            return array;
         }
     }
 }

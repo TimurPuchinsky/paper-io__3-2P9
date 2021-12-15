@@ -6,19 +6,10 @@
         xmlns:local="clr-namespace:paper_io"
         mc:Ignorable="d"
         Title="Room" Height="511.5" Width="924.5">
-    <Grid>
-        <ScrollViewer x:Name="CanvasViewer"   HorizontalScrollBarVisibility="Hidden"  VerticalScrollBarVisibility="Hidden" Margin="205,54,153,53" Background="#FFA3ABF9">
-            <Canvas x:Name="Canvas"  IsHitTestVisible="False" Height="225" Width="231" Background="#FFFDEBEB">
-                <Rectangle x:Name="Player" Fill="Black" Canvas.Left="100" Canvas.Top="86" Height="40" Width="36" />
-            </Canvas>
-
-        </ScrollViewer>
-        <!--<ScrollViewer x:Name="CanvasViewer" HorizontalScrollBarVisibility="Hidden"  VerticalScrollBarVisibility="Hidden" Margin="290,146,296,145" Background="#FFF5DADA">
-            <Canvas x:Name="Player" IsHitTestVisible="False" Background="Black" Height="39" Width="36"/>
-            -->
-        <!--<Rectangle x:Name="Player" Fill="Black" Canvas.Left="90" Canvas.Top="86" Height="50" Width="50" />-->
-        <!--
-        </ScrollViewer>-->
-        <Label Content="Label" HorizontalAlignment="Left" Margin="392,266,0,0" VerticalAlignment="Top"/>
-    </Grid>
+    <!--<Grid>
+        <Canvas x:Name="Canvas" IsHitTestVisible="False" Height="31" Width="17" Background="WhiteSmoke">
+            <Rectangle x:Name="Player" Fill="Black" Canvas.Top="13" Height="6" Width="4" Canvas.Left="7" />
+        </Canvas>
+    </Grid>-->
+    <Image Name="canvas" Margin="3,3,3,3"/>
 </Window>
