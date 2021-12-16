@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:paper_io"
         mc:Ignorable="d"
-        Title="Room" Height="511.5" Width="924.5">
+        Title="Room" Height="510.5" Width="924.5">
     <!--<Grid>
         <Canvas x:Name="Canvas" IsHitTestVisible="False" Height="31" Width="17" Background="WhiteSmoke">
             <Rectangle x:Name="Player" Fill="Black" Canvas.Top="13" Height="6" Width="4" Canvas.Left="7" />
