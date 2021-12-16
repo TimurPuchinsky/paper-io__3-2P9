@@ -122,10 +122,7 @@ namespace paper_io
         public void Canvas()
         {
             GeometryGroup gg = new GeometryGroup();
-            gg.Children.Add(
-                new RectangleGeometry(
-                    new Rect() { X = 10, Y = 20, Height = 31, Width = 17 },
-                    0, 0));
+            gg.Children.Add(new RectangleGeometry(new Rect() { X = 10, Y = 20, Height = 31, Width = 17 }, 0, 0));
             GeometryDrawing gd = new GeometryDrawing();
             gd.Geometry = gg;
             gd.Pen = new Pen(Brushes.Black, 0.05);
@@ -135,8 +132,13 @@ namespace paper_io
 
             //foreach(Player in canvas)
             //{
-
+                
             //}
+        }
+        public void Canvas1(Player oblast)
+        {
+            //Player coordinates = new Player();
+            //coordinates.location = 
         }
     }
 }

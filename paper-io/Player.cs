@@ -12,6 +12,13 @@ namespace paper_io
     /// </summary>
     public class Player
     {
-
+        /// <summary>
+        /// положение игрока
+        /// </summary>
+        public Point location = new Point();
+        /// <summary>
+        /// координаты шлейфа
+        /// </summary>
+        List<Point> plume = new List<Point>();
     }
 }
