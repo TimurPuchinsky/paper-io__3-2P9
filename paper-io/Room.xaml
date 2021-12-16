@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Room" Height="510.5" Width="924.5">
     <!--<Grid>
-        <Canvas x:Name="Canvas" IsHitTestVisible="False" Height="31" Width="17" Background="WhiteSmoke">
+        <Canvas x:Name="Canvas" IsHitTestVisible="False">
             <Rectangle x:Name="Player" Fill="Black" Canvas.Top="13" Height="6" Width="4" Canvas.Left="7" />
         </Canvas>
     </Grid>-->

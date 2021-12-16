@@ -37,7 +37,6 @@ namespace paper_io
         /// </summary>
         public Player[,] OblastKoordinat(Point point)
         {
-            Rectangle koordinat = new Rectangle();
             Player[,] array = new Player[31, 17];
             Point TopLeft = new Point(point.X - 8, point.Y - 15);
             int x = 0;

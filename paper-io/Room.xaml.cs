@@ -119,7 +119,7 @@ namespace paper_io
             Canvas();
             //canvas.Source = Im
         }
-        public void Canvas()
+        public void Canvas1()
         {
             GeometryGroup gg = new GeometryGroup();
             gg.Children.Add(new RectangleGeometry(new Rect() { X = 10, Y = 20, Height = 31, Width = 17 }, 0, 0));
@@ -132,13 +132,25 @@ namespace paper_io
 
             //foreach(Player in canvas)
             //{
-                
+                 
             //}
         }
-        public void Canvas1(Player oblast)
+        /// <summary>
+        /// Отрисовка области
+        /// </summary>
+        public void Canvas()
         {
-            //Player coordinates = new Player();
-            //coordinates.location = 
+            Player[,] player = new Player[,];
+            player.location = ;
+            player.plume = ;
+            if (player.location)
+            {
+
+            }
+            if (player.plume)
+            {
+
+            }
         }
     }
 }
