@@ -140,17 +140,19 @@ namespace paper_io
         /// </summary>
         public void Canvas()
         {
-            Player[,] player = new Player[,];
-            player.location = ;
-            player.plume = ;
-            if (player.location)
+            byte n = 0;
+            Game game = new Game(n);
+            Player player = new Player();
+            if (player.location = game.)
             {
 
             }
-            if (player.plume)
+            else
+            if (player.plume = )
             {
 
             }
+            else
         }
     }
 }
